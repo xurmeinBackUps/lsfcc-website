@@ -1,22 +1,15 @@
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/vue-logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
- 
-
-      <nav>
-        <RouterLink to="/">Generated Welcome</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <v-app>
+    <TheNav />
+    <v-main>
+      <RouterView />
+    </v-main>
+  </v-app>
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import TheNav from './components/TheNav.vue';
 </script>
 
 <style>

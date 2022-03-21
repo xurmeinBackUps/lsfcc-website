@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import WelcomeView from '../views/WelcomeView.vue'
+import SplashView from '../views/SplashView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'welcome',
-      component: WelcomeView
+      name: 'splash',
+      component: SplashView
     },
     {
       path: '/about',
@@ -16,6 +16,11 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
+    },
+    {
+      path: '/generated-welcome-page',
+      name: 'welcome',
+      component: () => import('../views/WelcomeView.vue')
     }
   ]
 })
