@@ -11,7 +11,7 @@
           <RouterLink to="/about">About</RouterLink>
         </v-chip>
         <v-chip>
-          <RouterLink to="/generated-welcome">Welcome</RouterLink>
+          <RouterLink to="/generated-welcome-page">Welcome</RouterLink>
         </v-chip>
       </nav>
     </div>
