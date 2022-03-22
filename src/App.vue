@@ -1,10 +1,8 @@
 <template>
-  <v-app>
-    <TheNav />
-    <v-main>
-      <RouterView />
-    </v-main>
-  </v-app>
+  <div class="app-container">
+    <TheNav class="navigation"/>
+    <RouterView class="content"/>
+  </div>
 </template>
 
 <script setup>
@@ -15,5 +13,8 @@ import TheNav from './components/TheNav.vue';
 <style>
 @import '@/assets/scss/base.scss';
 
-
+.content {
+  position:absolute;
+  margin-top: 10em;
+}
 </style>

@@ -1,7 +1,13 @@
 <template>
   <div>
-    <img src="@/assets/lincoln-building-1a.jpg" />
-    <img src="@/assets/lincoln-building-2.jpg" />
+    <img
+      src="@/assets/lincoln-building-1a.jpg"
+      class="building-img"
+    />
+    <img
+      src="@/assets/lincoln-building-2.jpg"
+      class="building-img"
+    />
   </div>
 </template>
 
@@ -9,4 +15,8 @@
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.building-img {
+  max-width: 50%;
+}
+</style>
