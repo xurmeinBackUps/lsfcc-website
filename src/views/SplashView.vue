@@ -1,11 +1,11 @@
 <template>
   <div>
-  <TheSplashContent />
+  <ContentSplash />
   </div>
 </template>
 
 <script setup>
-import TheSplashContent from '../components/TheSplashContent.vue';
+import ContentSplash from '../components/ContentSplash.vue';
 
 </script>
 
