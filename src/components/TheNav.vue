@@ -1,12 +1,27 @@
 <template>
   <header class="navbar">
-    <img alt="Vue logo" class="logo" src="@/assets/vue-logo.svg" width="125" height="125" />
+    <img
+      alt="Lincoln School for Colored Children project logo" 
+      class="logo" 
+      src="@/assets/icons/logo.png" 
+      width="125" 
+      height="125" 
+    />
 
     <div class="wrapper">
       <nav class="nav-links">
-        <RouterLink to="/">Splash</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/generated-welcome-page">Welcome</RouterLink>
+        <ul class="no-bullets">
+          <li>
+            <RouterLink to="/">Splash</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/about">About</RouterLink>
+          </li>
+          <li>        
+            <RouterLink to="/generated-welcome-page">Welcome</RouterLink>
+          </li>
+        </ul>
+        
       </nav>
     </div>
   </header>
@@ -18,17 +33,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <style lang="scss" scoped>
-.navbar {
-  display: inline;
-  margin-left: 3em;
-  margin-right: 3em;
-}
-
-.logo {
-  float: left;
-}
-.wrapper {
-  float: right;
-  // margin-right: 2em;
+.no-bullets {
+  list-style: none;
 }
 </style>
