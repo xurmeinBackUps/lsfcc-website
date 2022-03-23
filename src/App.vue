@@ -25,14 +25,15 @@ import TheNav from './components/TheNav.vue';
 
 .navigation {
   position: fixed;
-  height: 100%;
-  width: 10em;
+  top: 0;
+  height: 10em;
+  width: 100%;
   background: $white;
   color: $copy;
-  border-right: 1px $copy solid;
+  border-bottom: 1px $copy solid;
 }
 
 .content {
-  margin-left: 11em;
+  margin-top: 11em;
 }
 </style>
