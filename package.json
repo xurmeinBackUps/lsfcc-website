@@ -5,29 +5,39 @@
     "name": "Jake Peacock",
     "email": "wj.pavocrist@gmail.com"
   },
-  "license": "(MIT OR Apache-2.0)",
   "scripts": {
-    "dev": "vite",
+    "serve": "vite preview",
     "build": "vite build",
-    "preview": "vite preview --port 5050",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "vite",
+    "preview": "vite preview --port 5050"
   },
   "dependencies": {
     "@googleapis/docs": "^0.2.0",
     "@googleapis/drive": "^2.3.0",
     "@googleapis/gmail": "^0.3.2",
     "@googleapis/oauth2": "^0.2.0",
+    "@mdi/font": "5.9.55",
     "dotenv": "^16.0.0",
     "googleapis": "^97.0.0",
     "pinia": "^2.0.12",
+    "roboto-fontface": "*",
     "sass": "^1.49.9",
     "vue": "^3.2.31",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.0",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
-    "vite": "^2.8.4"
-  }
+    "sass": "^1.38.0",
+    "sass-loader": "^10.0.0",
+    "vite": "^2.8.4",
+    "vue-cli-plugin-vuetify": "~2.4.8",
+    "vuetify-loader": "^2.0.0-alpha.0"
+  },
+  "license": "(MIT OR Apache-2.0)"
 }
