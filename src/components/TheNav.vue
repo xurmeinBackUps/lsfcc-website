@@ -38,7 +38,7 @@ import { RouterLink } from 'vue-router';
 }
 
 .logo {
-  width: 5em;
+  width: 4.5em;
   float: left;
 }
 

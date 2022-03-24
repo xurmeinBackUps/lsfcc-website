@@ -1,7 +1,7 @@
 <template>
     <div class="app-container">
       <TheNav class="navigation" />
-        <div class="content">
+        <div class="container">
           <RouterView />
         </div>
     </div>
@@ -26,14 +26,17 @@ import TheNav from './components/TheNav.vue';
 .navigation {
   position: fixed;
   top: 0;
-  height: 10em;
+  height: fit-content;
   width: 100%;
   background: $white;
   color: $copy;
   border-bottom: 1px $copy solid;
+  z-index: 10;
 }
 
-.content {
-  margin-top: 11em;
+.container {
+  position: relative;
+  top: 5em;
+  z-index: 5;
 }
 </style>

@@ -18,14 +18,6 @@
     <div class="card">
       <img src="@/assets/icons/blog.png" class="splash-grid__img" />
     </div>
-    <!-- <img
-      src="@/assets/icons/yearbook.png"
-      class="splash-grid__img"  
-    />
-     <img
-      src="@/assets/icons/yearbook.png"
-      class="splash-grid__img"  
-    />-->
   </div>
 </template>
 
@@ -44,12 +36,7 @@
 
   &__img {
     height: 20vh;
-    margin: auto;
-    width: fit-content;
   }
 }
 
-.row {
-  border: 1px black solid;
-}
 </style>
