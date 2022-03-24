@@ -1,10 +1,12 @@
 <template>
+  <v-app>
   <div class="app-container">
     <TheNav class="navigation"/>
     <div class="content">
       <RouterView />
     </div>
   </div>
+  </v-app>
 </template>
 
 <script setup>

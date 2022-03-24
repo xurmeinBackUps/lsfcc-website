@@ -10,6 +10,7 @@
           />
         </RouterLink>
       </li>
+      <div class="nav-links__right">
       <li>
         <RouterLink to="/about">About</RouterLink>
       </li>
@@ -17,6 +18,7 @@
         <RouterLink to="/generated-welcome-page">Welcome</RouterLink>
       </li>
       <li>Sponsors</li>
+      </div>
     </ul>
   </nav>
 </template>
@@ -29,10 +31,15 @@ import { RouterLink } from 'vue-router';
 <style lang="scss" scoped>
 .nav-links {
   display: inline;
+
+  &__right {
+    float: right;
+  }
 }
 
 .logo {
   width: 5em;
+  float: left;
 }
 
 .no-bullets {
