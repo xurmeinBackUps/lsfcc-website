@@ -1,12 +1,10 @@
 <template>
-  <v-app>
-  <div class="app-container">
-    <TheNav class="navigation"/>
-    <div class="content">
-      <RouterView />
+    <div class="app-container">
+      <TheNav class="navigation" />
+        <div class="content">
+          <RouterView />
+        </div>
     </div>
-  </div>
-  </v-app>
 </template>
 
 <script setup>
@@ -15,13 +13,13 @@ import TheNav from './components/TheNav.vue';
 </script>
 
 <style lang="scss">
-@import '@/assets/scss/variables.scss';
-@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto&display=swap');
+@import "@/assets/scss/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Roboto&display=swap");
 
 .app-container {
   height: 100vh;
   line-height: 1.6;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
 
