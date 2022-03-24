@@ -14,6 +14,7 @@ import TheNav from './components/TheNav.vue';
 
 <style lang="scss">
 @import '@/assets/scss/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto&display=swap');
 
 .app-container {
   height: 100vh;
