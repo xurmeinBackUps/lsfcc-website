@@ -1,5 +1,5 @@
 <template>
-	<v-container>InformationView.vue</v-container>
+	<div>InformationView.vue</div>
 </template>
 
 <script></script>

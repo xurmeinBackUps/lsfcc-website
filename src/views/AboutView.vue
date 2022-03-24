@@ -1,7 +1,7 @@
 <template>
-  <v-container class="about">
+  <div class="about">
     <h1>About the LSFCC Project</h1>
-  </v-container>
+  </div>
 </template>
 
 <style scoped lang="scss">

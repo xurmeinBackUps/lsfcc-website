@@ -1,7 +1,7 @@
 <template>
-  <v-container>
+  <div>
   <ContentSplash />
-  </v-container>
+  </div>
 </template>
 
 <script setup>

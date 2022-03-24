@@ -1,7 +1,7 @@
 <template>
-  <v-container>
+  <main>
     <TheWelcome />
-  </v-container>
+  </main>
 </template>
 
 <script setup>
