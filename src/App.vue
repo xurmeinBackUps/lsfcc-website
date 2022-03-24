@@ -1,14 +1,10 @@
 <template>
-  <v-app>
-    <div class="app-container">
-      <v-app-bar>
-        <TheNav class="navigation" />
-      </v-app-bar>
-      <v-main class="content">
-        <RouterView />
-      </v-main>
+  <div class="app-container">
+    <TheNav class="navigation"/>
+    <div class="content">
+      <RouterView />
     </div>
-  </v-app>
+  </div>
 </template>
 
 <script setup>
@@ -17,19 +13,19 @@ import TheNav from './components/TheNav.vue';
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/variables.scss";
+@import '@/assets/scss/variables.scss';
 
 .app-container {
-  height: fit-content;
+  height: 100vh;
   line-height: 1.6;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
 }
 
 .navigation {
   position: fixed;
   top: 0;
-  height: 5em;
+  height: 10em;
   width: 100%;
   background: $white;
   color: $copy;
@@ -37,8 +33,6 @@ import TheNav from './components/TheNav.vue';
 }
 
 .content {
-  position: fixed;
-  top: 6em;
-
+  margin-top: 11em;
 }
 </style>
