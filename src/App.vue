@@ -1,12 +1,15 @@
 <template>
-  <div class="app-container">
-    <md-app>
-      <TheNav class="navigation" />
-      <div class="container">
-        <RouterView />
-      </div>
-    </md-app>
-  </div>
+  <q-layout view="hHh lpR fFf">
+
+    <q-header reveal elevated class="bg-primary text-white">
+     <TheNav />
+    </q-header>
+
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+
+  </q-layout>
 </template>
 
 <script setup>
