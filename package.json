@@ -17,14 +17,17 @@
     "@googleapis/drive": "^2.3.0",
     "@googleapis/gmail": "^0.3.2",
     "@googleapis/oauth2": "^0.2.0",
+    "@quasar/extras": "^1.13.3",
     "dotenv": "^16.0.0",
     "googleapis": "^97.0.0",
     "pinia": "^2.0.12",
-    "sass": "^1.49.9",
+    "quasar": "^2.6.1",
+    "sass": "1.32.0",
     "vue": "^3.2.31",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
+    "@quasar/vite-plugin": "^1.0.7",
     "@vitejs/plugin-vue": "^2.2.2",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",

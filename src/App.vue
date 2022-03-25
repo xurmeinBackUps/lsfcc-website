@@ -1,10 +1,12 @@
 <template>
-    <div class="app-container">
+  <div class="app-container">
+    <md-app>
       <TheNav class="navigation" />
-        <div class="container">
-          <RouterView />
-        </div>
-    </div>
+      <div class="container">
+        <RouterView />
+      </div>
+    </md-app>
+  </div>
 </template>
 
 <script setup>
