@@ -1,7 +1,5 @@
 <template>
-	<div>
-		content_anon_blog
-	</div>
+	<div>content_anon_blog</div>
 </template>
 
 <script></script>

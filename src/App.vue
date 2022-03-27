@@ -1,20 +1,18 @@
 <template>
   <q-layout view="hHh lpR fFf">
-
     <q-header reveal elevated class="bg-primary text-white">
-     <TheNav />
+      <TheNavbar />
     </q-header>
 
     <q-page-container>
       <router-view />
     </q-page-container>
-
   </q-layout>
 </template>
 
 <script setup>
 import { RouterView } from 'vue-router'
-import TheNav from './components/TheNav.vue';
+import TheNavbar from './components/TheNavbar.vue';
 </script>
 
 <style lang="scss">
