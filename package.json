@@ -17,7 +17,7 @@
     "@googleapis/drive": "^2.3.0",
     "@googleapis/gmail": "^0.3.2",
     "@googleapis/oauth2": "^0.2.0",
-    "@quasar/extras": "^1.13.3",
+    "@quasar/extras": "^1.13.4",
     "dotenv": "^16.0.0",
     "googleapis": "^97.0.0",
     "pinia": "^2.0.12",
