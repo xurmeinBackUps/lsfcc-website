@@ -1,39 +1,39 @@
 <template>
   <div>
-    <div class="q-pa-md splash-grid">
+    <div class="q-pa-xl splash-grid">
       <RouterLink to="/lincoln-school/building-1">
         <q-card class="card">
-          <q-img :fit="contain" src="@/assets/lincoln-building-1a.jpg" class="splash-grid__img" />
+          <q-img fit="scale-down" src="@/assets/lincoln-building-1a.jpg" class="splash-grid__img" />
         </q-card>
       </RouterLink>
 
       <RouterLink to="/lincoln-school/building-2">
         <q-card class="card">
-          <q-img :fit="contain" src="@/assets/lincoln-building-2.jpg" class="splash-grid__img" />
+          <q-img fit="scale-down" src="@/assets/lincoln-building-2.jpg" class="splash-grid__img" />
         </q-card>
       </RouterLink>
 
       <RouterLink to="/">
         <q-card class="card">
-          <q-img :fit="contain" src="@/assets/icons/yearbook.png" class="splash-grid__img" />
+          <q-img fit="scale-down" src="@/assets/icons/yearbook.png" class="splash-grid__img" />
         </q-card>
       </RouterLink>
 
       <RouterLink to="/">
         <q-card class="card">
-          <q-img :fit="contain" src="@/assets/icons/varsity.png" class="splash-grid__img" />
+          <q-img fit="scale-down" src="@/assets/icons/varsity.png" class="splash-grid__img" />
         </q-card>
       </RouterLink>
 
       <RouterLink to="/">
         <q-card class="card">
-          <q-img :fit="contain" src="@/assets/icons/transcription.png" class="splash-grid__img" />
+          <q-img fit="scale-down" src="@/assets/icons/transcription.png" class="splash-grid__img" />
         </q-card>
       </RouterLink>
 
       <RouterLink to="/">
         <q-card class="card">
-          <q-img :fit="contain" src="@/assets/icons/blog.png" class="splash-grid__img" />
+          <q-img fit="scale-down" src="@/assets/icons/blog.png" class="splash-grid__img" />
         </q-card>
       </RouterLink>
     </div>
@@ -53,12 +53,15 @@ import {
   padding-top: 2em;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 30vh);
-  column-gap: 1em;
-  row-gap: 2em;
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 50px;
 
   &__img {
-    overflow: hidden;
+    height: 250px;
   }
+}
+
+.card {
+  margin: 50px;
 }
 </style>
