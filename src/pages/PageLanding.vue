@@ -1,42 +1,43 @@
 <template>
   <div>
     <div class="splash-grid">
-      <div class="card">
+      <q-card class="card">
         <RouterLink to="/lincoln-school/building-1">
           <img src="@/assets/lincoln-building-1a.jpg" class="splash-grid__img" />
         </RouterLink>
-      </div>
-      <div class="card">
+      </q-card>
+      <q-card class="card">
         <RouterLink to="/lincoln-school/building-2">
           <img src="@/assets/lincoln-building-2.jpg" class="splash-grid__img" />
         </RouterLink>
-      </div>
-      <div class="card">
+      </q-card>
+      <q-card class="card">
         <RouterLink to="/">
           <img src="@/assets/icons/yearbook.png" class="splash-grid__img" />
         </RouterLink>
-      </div>
-      <div class="card">
+      </q-card>
+      <q-card class="card">
         <RouterLink to="/">
           <img src="@/assets/icons/varsity.png" class="splash-grid__img" />
         </RouterLink>
-      </div>
-      <div class="card">
+      </q-card>
+      <q-card class="card">
         <RouterLink to="/">
           <img src="@/assets/icons/transcription.png" class="splash-grid__img" />
         </RouterLink>
-      </div>
-      <div class="card">
+      </q-card>
+      <q-card class="card">
         <RouterLink to="/">
           <img src="@/assets/icons/blog.png" class="splash-grid__img" />
         </RouterLink>
-      </div>
+      </q-card>
     </div>
   </div>
 </template>
 
 <script setup>
 import { RouterLink } from 'vue-router'
+import { QCard } from 'quasar';
 </script>
 
 <style lang="scss" scoped>
