@@ -4,36 +4,42 @@
       <RouterLink to="/lincoln-school/building-1">
         <q-card class="card">
           <q-img fit="scale-down" src="@/assets/lincoln-building-1a.jpg" class="splash-grid__img" />
+          <div class="absolute-bottom text-center text-h6">Building One</div>
         </q-card>
       </RouterLink>
 
       <RouterLink to="/lincoln-school/building-2">
         <q-card class="card">
           <q-img fit="scale-down" src="@/assets/lincoln-building-2.jpg" class="splash-grid__img" />
+          <div class="absolute-bottom text-center text-h6">Building Two</div>
         </q-card>
       </RouterLink>
 
       <RouterLink to="/">
         <q-card class="card">
           <q-img fit="scale-down" src="@/assets/icons/yearbook.png" class="splash-grid__img" />
+          <div class="absolute-bottom text-center text-h6">Faculty & Staff</div>
         </q-card>
       </RouterLink>
 
       <RouterLink to="/">
         <q-card class="card">
           <q-img fit="scale-down" src="@/assets/icons/varsity.png" class="splash-grid__img" />
+          <div class="absolute-bottom text-center text-h6">Memorabilia</div>
         </q-card>
       </RouterLink>
 
       <RouterLink to="/">
         <q-card class="card">
           <q-img fit="scale-down" src="@/assets/icons/transcription.png" class="splash-grid__img" />
+          <div class="absolute-bottom text-center text-h6">Transcripts</div>
         </q-card>
       </RouterLink>
 
       <RouterLink to="/">
         <q-card class="card">
           <q-img fit="scale-down" src="@/assets/icons/blog.png" class="splash-grid__img" />
+          <div class="absolute-bottom text-center text-h6">Blog</div>
         </q-card>
       </RouterLink>
     </div>
@@ -53,15 +59,18 @@ import {
   padding-top: 2em;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 300px);
   column-gap: 50px;
 
   &__img {
     height: 250px;
+    overflow-y: hidden;
   }
 }
 
 .card {
-  margin: 50px;
+  margin: 1em;
+  border-radius: 125px;
+  // position: relative;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <q-header reveal elevated class="bg-primary text-white">
+  <q-header reveal elevated class="bg-primary text-white text-center">
     <q-toolbar class="nav-links">
       <ul class="no-bullets">
         <li>
@@ -42,7 +42,7 @@ import {
 
   &__right {
     float: right;
-    
+    top: 15px;
   }
 }
 
