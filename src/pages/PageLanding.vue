@@ -2,12 +2,12 @@
   <div>
     <div class="splash-grid">
       <div class="card">
-        <RouterLink to="/">
+        <RouterLink to="/lincoln-school/building-1">
           <img src="@/assets/lincoln-building-1a.jpg" class="splash-grid__img" />
         </RouterLink>
       </div>
       <div class="card">
-        <RouterLink to="/">
+        <RouterLink to="/lincoln-school/building-2">
           <img src="@/assets/lincoln-building-2.jpg" class="splash-grid__img" />
         </RouterLink>
       </div>
