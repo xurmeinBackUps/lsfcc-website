@@ -1,4 +1,3 @@
-
 import { createApp } from 'vue'
 import { Quasar } from 'quasar'
 import '@quasar/extras/material-icons/material-icons.css'
