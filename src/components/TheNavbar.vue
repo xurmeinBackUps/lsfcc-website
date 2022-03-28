@@ -42,6 +42,7 @@ import {
 
   &__right {
     float: right;
+
     top: 15px;
   }
 }
