@@ -2,34 +2,34 @@
   <div>
     <div class="splash-grid">
       <div class="card">
-        <!-- <RouterLink> -->
+        <RouterLink to="/">
           <img src="@/assets/lincoln-building-1a.jpg" class="splash-grid__img" />
-        <!-- </RouterLink> -->
+        </RouterLink>
       </div>
       <div class="card">
-        <!-- <RouterLink> -->
+        <RouterLink to="/">
           <img src="@/assets/lincoln-building-2.jpg" class="splash-grid__img" />
-        <!-- </RouterLink> -->
+        </RouterLink>
       </div>
       <div class="card">
-        <!-- <RouterLink> -->
+        <RouterLink to="/">
           <img src="@/assets/icons/yearbook.png" class="splash-grid__img" />
-        <!-- </RouterLink> -->
+        </RouterLink>
       </div>
       <div class="card">
-        <!-- <RouterLink> -->
+        <RouterLink to="/">
           <img src="@/assets/icons/varsity.png" class="splash-grid__img" />
-        <!-- </RouterLink> -->
+        </RouterLink>
       </div>
       <div class="card">
-        <!-- <RouterLink> -->
+        <RouterLink to="/">
           <img src="@/assets/icons/transcription.png" class="splash-grid__img" />
-        <!-- </RouterLink> -->
+        </RouterLink>
       </div>
       <div class="card">
-        <!-- <RouterLink> -->
+        <RouterLink to="/">
           <img src="@/assets/icons/blog.png" class="splash-grid__img" />
-        <!-- </RouterLink> -->
+        </RouterLink>
       </div>
     </div>
   </div>

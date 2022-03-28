@@ -12,6 +12,11 @@
 
 <script setup>
 import { RouterView } from 'vue-router'
+import {
+  QLayout,
+  QHeader,
+  QPageContainer
+} from 'quasar';
 import TheNavbar from './components/TheNavbar.vue';
 </script>
 
