@@ -1,43 +1,51 @@
 <template>
   <div>
-    <div class="splash-grid">
-      <q-card class="card">
-        <RouterLink to="/lincoln-school/building-1">
-          <img src="@/assets/lincoln-building-1a.jpg" class="splash-grid__img" />
-        </RouterLink>
-      </q-card>
-      <q-card class="card">
-        <RouterLink to="/lincoln-school/building-2">
-          <img src="@/assets/lincoln-building-2.jpg" class="splash-grid__img" />
-        </RouterLink>
-      </q-card>
-      <q-card class="card">
-        <RouterLink to="/">
-          <img src="@/assets/icons/yearbook.png" class="splash-grid__img" />
-        </RouterLink>
-      </q-card>
-      <q-card class="card">
-        <RouterLink to="/">
-          <img src="@/assets/icons/varsity.png" class="splash-grid__img" />
-        </RouterLink>
-      </q-card>
-      <q-card class="card">
-        <RouterLink to="/">
-          <img src="@/assets/icons/transcription.png" class="splash-grid__img" />
-        </RouterLink>
-      </q-card>
-      <q-card class="card">
-        <RouterLink to="/">
-          <img src="@/assets/icons/blog.png" class="splash-grid__img" />
-        </RouterLink>
-      </q-card>
+    <div class="q-pa-md splash-grid">
+      <RouterLink to="/lincoln-school/building-1">
+        <q-card class="card">
+          <q-img :fit="contain" src="@/assets/lincoln-building-1a.jpg" class="splash-grid__img" />
+        </q-card>
+      </RouterLink>
+
+      <RouterLink to="/lincoln-school/building-2">
+        <q-card class="card">
+          <q-img :fit="contain" src="@/assets/lincoln-building-2.jpg" class="splash-grid__img" />
+        </q-card>
+      </RouterLink>
+
+      <RouterLink to="/">
+        <q-card class="card">
+          <q-img :fit="contain" src="@/assets/icons/yearbook.png" class="splash-grid__img" />
+        </q-card>
+      </RouterLink>
+
+      <RouterLink to="/">
+        <q-card class="card">
+          <q-img :fit="contain" src="@/assets/icons/varsity.png" class="splash-grid__img" />
+        </q-card>
+      </RouterLink>
+
+      <RouterLink to="/">
+        <q-card class="card">
+          <q-img :fit="contain" src="@/assets/icons/transcription.png" class="splash-grid__img" />
+        </q-card>
+      </RouterLink>
+
+      <RouterLink to="/">
+        <q-card class="card">
+          <q-img :fit="contain" src="@/assets/icons/blog.png" class="splash-grid__img" />
+        </q-card>
+      </RouterLink>
     </div>
   </div>
 </template>
 
 <script setup>
 import { RouterLink } from 'vue-router'
-import { QCard } from 'quasar';
+import {
+  QCard,
+  QImg
+} from 'quasar';
 </script>
 
 <style lang="scss" scoped>
@@ -47,10 +55,10 @@ import { QCard } from 'quasar';
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 30vh);
   column-gap: 1em;
-  row-gap: 0.5em;
+  row-gap: 2em;
 
   &__img {
-    height: 20vh;
+    overflow: hidden;
   }
 }
 </style>
